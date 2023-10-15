@@ -1,9 +1,24 @@
+import { Grid, Typography } from '@mui/material'
 import React from 'react'
 
 export const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <Grid container spacing={3} sx={{ textAlign: 'center' }}>
+      <Grid item xs={12} sx={{ mt: 1 }}>
+        <Typography variant='h1'>
+          Contact
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+        <iframe
+          title="contact-form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeHFUdeYDswR6X_wIFTwP0u3YK3gsXFVju6pV_5STWMJfCvew/viewform?embedded=true"
+          width="640"
+          height="1700"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0">Loading…</iframe>
+      </Grid>
+    </Grid>
   )
 }

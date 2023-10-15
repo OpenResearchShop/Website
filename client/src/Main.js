@@ -7,6 +7,7 @@ import { Box } from '@mui/material'
 import { Home } from './Home'
 import { About } from './About'
 import { Team } from './Team'
+import { Navigation } from './Navigation'
 import { Contact } from './Contact'
 
 export const Main = () => {
@@ -23,6 +24,7 @@ export const Main = () => {
         overflow: 'auto',
       }}
     >
+      <Navigation />
       <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
         <Routes>
           <Route path="/" element={<Home />} />
