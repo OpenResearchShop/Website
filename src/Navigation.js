@@ -67,7 +67,7 @@ export const Navigation = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={2} sx={{ textAlign: 'center' }}>
             <img
-              src={'/logo.png'}
+              src={'./logo.png'}
               alt={'logo'}
               style={{
                 height: '4em',

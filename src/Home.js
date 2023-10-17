@@ -7,10 +7,10 @@ export const Home = () => {
     <Grid container spacing={3}>
       <Grid item xs={12} sx={{ mt: 1, textAlign: 'center' }}>
         <img 
-          src='/logo.png'
+          src='./logo.png'
           alt='logo'
           style={{ 
-            height: '10em',
+            height: '20em',
             borderRadius: '10px',
           }} />
       </Grid>
