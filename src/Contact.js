@@ -1,14 +1,9 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid } from '@mui/material'
 import React from 'react'
 
 export const Contact = () => {
   return (
     <Grid container spacing={3} sx={{ textAlign: 'center' }}>
-      <Grid item xs={12} sx={{ mt: 1 }}>
-        <Typography variant='h1'>
-          Contact
-        </Typography>
-      </Grid>
       <Grid item xs={12}>
         <iframe
           title="contact-form"

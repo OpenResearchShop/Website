@@ -59,6 +59,6 @@ export const Team = () => {
           </Typography>
         </Grid>
       </Grid>
-    </Box >
+    </Box>
   )
 }
